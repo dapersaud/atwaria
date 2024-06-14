@@ -18,7 +18,6 @@
 # ~> https://jekyllrb.com/docs/configuration/options/
 
 title:            'Atwaria'
-layout:		  'wax/exhibit'
 description:      'Pictures of Atwaria'
 url:              'https://dapersaud.github.io'
 baseurl:          '/atwaria'
@@ -62,11 +61,11 @@ collections:
     output: true
   atwaria: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'atwaria_item' # the layout for the pages to use
+    layout: 'wax/exhibit' # the layout for the pages to use
     metadata:
-      source: 'atwaria.csv' # path to the metadata file within `_data`
+      source: '_data/atwaria.csv' # path to the metadata file within `_data`
     images:
-      source: 'raw_images' # path to the directory of images within `_data`
+      source: '_data/raw_images' # path to the directory of images within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
