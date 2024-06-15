@@ -65,7 +65,7 @@ collections:
     metadata:
       source: 'atwaria.csv' # path to the metadata file within `_data`
     images:
-      source: 'raw_images' # path to the directory of images within `_data`
+      source: 'raw_images/atwaria_pics' # path to the directory of images within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -102,12 +102,14 @@ menu:
         link: 'https://minicomp.github.io/wiki/wax/'
       - label: 'Credits'
         link: '/credits/'
-  - label: 'Images'
+  - label: 'Exhibits'
     sub:
-      - label: 'Inline Parallax Image'
+      - label: 'Local and Remote IIIF Manifests'
         link: '/exhibits/a/'
+      - label: 'Inline Parallax Image'
+	link: '/exhibits/b/'
       - label: 'Inline Image References'
-        link: '/exhibits/b/'
+        link: '/exhibits/c/'
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'
